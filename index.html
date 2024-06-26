@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
@@ -12,13 +13,15 @@
         <section>
             <!-- Лого+навігаційна панель -->
             <img src="./img/logoheader.png" alt="WebStudio">
+            <img src="./img/logoheader.png" alt="WebStudio">
             <nav>
-                <ul>
+                <ul class="nav">
                     <li><a href="index.html">Студія</a></li>
                     <li><a href="portfolio.html">Портфоліо</a></li>
                     <li><a href="#">Контакти</a></li>
                 </ul>
-                <ul>
+                <!-- Добавлен Style.class -->
+                <ul class="addressHeader">
                     <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
                 </ul>
@@ -26,12 +29,13 @@
         </section>
     </header>
     <main>
-        <section>
+        <section class="section">
             <h1>Ефективні рішення для вашого бізнесу</h1>
             <button type="button">Замовити послугу</button>
         </section>
         <section>
-            <ul>
+            <!-- Добавлен Style.class -->
+            <ul class="desc">
                 <li><b>УВАГА ДО ДЕТАЛЕЙ</b>
                     <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
@@ -54,7 +58,8 @@
                 <li><img src="./img/main3.png" alt="foto3"></li>
             </ul>
         </section>
-        <section>
+        <!-- Добавлен Style.class -->
+        <section class="foto">
             <h2>Наша команда</h2>
             <ul>
                 <li><img src="./img/igor.png" alt="igor" width="210">
@@ -85,11 +90,13 @@
         </section>
     </main>
     <footer>
-        <section>
+        <section class="addressFooter">
             <img src="./img/logofooter.png" alt="WebStudio">
-            <address>
-                <p>м. Київ, пр-т Лесі Українки, 26</p><a href="mailto:info@devstudio.com">info@devstudio.com</a><br><a
-                    href="tell:+38 096 111 11 11">+38 096 111 11 11</a>
+            <!-- Добавлен Style.class -->
+            <address >
+                <p>м. Київ, пр-т Лесі Українки, 26</p>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
+                <a href="tell:+38 096 111 11 11">+38 096 111 11 11</a>
             </address>
         </section>
     </footer>
