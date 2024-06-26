@@ -1,0 +1,62 @@
+/* Студію,портфоліо,контакти перефарбував у чорний колір */
+.nav > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Пошту,телефон перефарбував у сірий колір */
+.addressHeader > li > a {
+    color: gray;
+    text-decoration: none;
+}
+
+/* Кнопка */
+button {
+    color: aliceblue;
+    background-origin: padding-box;
+    background-color: rgb(33, 150, 243);
+    border: 0px;
+}
+
+h1 {
+    color: white;
+}
+
+.section {
+    background-color: rgb(47, 48, 58);
+}
+
+/* 'Ефективні рішення для вашого бізнесу' перефарбований : підтекст */
+.desc > li > p {
+    color: rgb(117, 117, 117);
+}
+
+
+
+/* Перефарбована 'посада в команді' */
+.foto > ul > li > div > p {
+    color: rgb(117, 117, 117);
+}
+
+.foto{
+    background-color: rgb(245, 244, 250);
+}
+
+.foto > ul > li {
+    background-color: white;
+}
+
+/* Підвал сайту */
+.addressFooter > address > a {
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+}
+
+.addressFooter > address > p {
+    color: white;
+}
+
+.addressFooter {
+    background-color: rgb(47, 48, 58);
+}
+
