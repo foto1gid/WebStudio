@@ -1,3 +1,7 @@
+ul {
+    list-style: none;
+}
+
 /* Студію,портфоліо,контакти перефарбував у чорний колір */
 .nav > li > a {
     text-decoration: none;
