@@ -1,3 +1,5 @@
+
+
 ul {
     list-style: none;
 }
@@ -6,13 +8,28 @@ ul {
 .nav > li > a {
     text-decoration: none;
     color: black;
+    font-family: "Roboto", sans-serif;
+  font-weight: 45;
+  font-style: normal;
+}
+
+.nav > li > a:hover {
+    color: blue;
 }
 
 /* Пошту,телефон перефарбував у сірий колір */
 .addressHeader > li > a {
     color: gray;
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
+  font-weight: 122;
+  font-style: normal;
 }
+
+.addressHeader > li > a:hover {
+    color: blue;
+}
+
 
 /* Кнопка */
 button {
@@ -20,10 +37,16 @@ button {
     background-origin: padding-box;
     background-color: rgb(33, 150, 243);
     border: 0px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 152;
+  font-style: normal;
 }
 
 h1 {
     color: white;
+    font-family: "Roboto", sans-serif;
+  font-weight: 696;
+  font-style: normal;
 }
 
 .section {
@@ -34,12 +57,26 @@ h1 {
 .desc > li > p {
     color: rgb(117, 117, 117);
 }
+.desc > li{
+    font-family: "Roboto", sans-serif;
+  font-weight: 270;
+  font-style: normal;
+}
 
 
 
 /* Перефарбована 'посада в команді' */
 .foto > ul > li > div > p {
     color: rgb(117, 117, 117);
+    font-family: "Roboto", sans-serif;
+  font-weight: 130;
+  font-style: normal;
+}
+ 
+.foto > ul > li > div > h4 {
+    font-family: "Roboto", sans-serif;
+  font-weight: 129;
+  font-style: normal;
 }
 
 .foto{
@@ -54,6 +91,11 @@ h1 {
 .addressFooter > address > a {
     color: rgb(117, 117, 117);
     text-decoration: none;
+
+}
+
+.addressFooter > address > a:hover {
+    color: blue;
 }
 
 .addressFooter > address > p {
@@ -62,5 +104,8 @@ h1 {
 
 .addressFooter {
     background-color: rgb(47, 48, 58);
+    font-family: "Roboto", sans-serif;
+  font-weight: 231;
+  font-style: normal;
 }
 

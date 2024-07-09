@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Портфоліо</title>
 </head>
 
@@ -13,12 +17,12 @@
             <!-- Лого+навігаційна панель -->
             <img src="./img/logoheader.png" alt="WebStudio">
             <nav>
-                <ul>
+                <ul class="nav">
                     <li><a href="index.html">Студія</a></li>
                     <li><a href="portfolio.html">Портфоліо</a></li>
                     <li><a href="#">Контакти</a></li>
                 </ul>
-                <ul>
+                <ul class="addressHeader">
                     <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
                 </ul>
@@ -36,58 +40,59 @@
                 <li><button>Маркетинг</button></li>
             </ul>
         </section>
-        <section>
+ <!-- Поставив класс -->
+        <section class="content">     
             <!-- project -->
             <ul>
-                <li><img src="./Img.portfolio/Foto1.png" alt="Технокряк">
+                <li><img src="./PortfolioImg/Foto1.png" alt="Технокряк">
                     <div>
                         <h2>Технокряк</h2>
                         <span>Веб-сайт</span>
                     </div>
                 </li>
-                <li><img src="./Img.portfolio/Foto2.png" alt="Постер New Orlean vs Golden Star">
+                <li><img src="./PortfolioImg/foto2.png" alt="Постер New Orlean vs Golden Star">
                     <div>
                         <h2>Постер New Orlean vs Golden Star</h2>
                         <span>Дизайн</span>
                     </div>
                 </li>
-                <li><img src="./Img.portfolio/Foto3.png" alt="Ресторан Seafood">
+                <li><img src="./PortfolioImg/foto3.png" alt="Ресторан Seafood">
                     <div>
                         <h2>Ресторан Seafood</h2>
                         <span>Додаток</span>
                     </div>
                 </li>
-                <li><img src="./Img.portfolio/Foto4.png" alt="Проєкт Prime">
+                <li><img src="./PortfolioImg/foto4.png" alt="Проєкт Prime">
                     <div>
                         <h2>Проєкт Prime</h2>
                         <span>Маркетинг</span>
                     </div>
                 </li>
-                <li><img src="./Img.portfolio/Foto5.png" alt="Проєкт Boxes">
+                <li><img src="./PortfolioImg/foto5.png" alt="Проєкт Boxes">
                     <div>
                         <h2>Проєкт Boxes</h2>
                         <span>Додаток</span>
                     </div>
                 </li>
-                <li><img src="./Img.portfolio/Foto6.png" alt="Inspiration has no Borders">
+                <li><img src="./PortfolioImg/foto6.png" alt="Inspiration has no Borders">
                     <div>
                         <h2>Inspiration has no Borders</h2>
                         <span>Веб-сайт</span>
                     </div>
                 </li>
-                <li><img src="./Img.portfolio/Foto7.png" alt="Видання Limited Edition">
+                <li><img src="./PortfolioImg/foto7.png" alt="Видання Limited Edition">
                     <div>
                         <h2>Видання Limited Edition</h2>
                         <span>Дизайн</span>
                     </div>
                 </li>
-                <li><img src="./Img.portfolio/Foto8.png" alt="Проєкт LAB">
+                <li><img src="./PortfolioImg/foto8.png" alt="Проєкт LAB">
                     <div>
                         <h2>Проєкт LAB</h2>
                         <span>Маркетинг</span>
                     </div>
                 </li>
-                <li><img src="./Img.portfolio/Foto9.png" alt="Growing Business">
+                <li><img src="./PortfolioImg/foto9.png" alt="Growing Business">
                     <div>
                         <h2>Growing Business</h2>
                         <span>Додаток</span>
@@ -98,7 +103,7 @@
     </main>
     <footer>
         <!-- Лого+адреса -->
-        <section>
+        <section class="logofooter">
             <img src="./Img/logofooter.png" alt="WebStudio">
             <address>
                 <p>м. Київ, пр-т Лесі Українки, 26</p><a href="mailto:info@devstudio.com">info@devstudio.com</a><br><a

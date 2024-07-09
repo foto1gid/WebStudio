@@ -1,0 +1,78 @@
+ul {
+   list-style: none ;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+span {
+    color: rgba(117, 117, 117, 1);
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Студію,портфоліо,контакти перефарбував у чорний колір */
+.nav > li > a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+  font-weight: 45;
+  font-style: normal;
+}
+
+.nav > li > a:hover {
+    color: blue;
+}
+
+/* Пошту,телефон перефарбував у сірий колір */
+.addressHeader > li > a {
+    color: gray;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+  font-weight: 122;
+  font-style: normal;
+}
+
+.addressHeader > li > a:hover {
+    color: blue;
+}
+
+button {
+  
+        color: rgb(0, 0, 0);
+        background-origin: padding-box;
+        background-color: F5F4FA;
+        border: 0px;
+        font-family: "Roboto", sans-serif;
+      font-weight: 152;
+      font-style: normal;
+    
+}
+
+button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.logofooter {
+    background-color: rgba(47, 48, 58, 1);
+
+}
+
+.logofooter > address > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.logofooter > address {
+    color: rgba(255, 255, 255, 1);
+}
+
+.logofooter > address > a:hover {
+    color: blue;
+}
